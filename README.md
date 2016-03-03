@@ -30,7 +30,7 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 
 * Tests in Parallel:
 	```
-	$ karma start karma.conf-ci.js
+	$ npm test
 	```
 
 [Sauce Labs Dashboard](https://saucelabs.com/beta/dashboard/)
