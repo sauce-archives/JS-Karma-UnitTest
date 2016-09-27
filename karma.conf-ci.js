@@ -57,8 +57,16 @@ module.exports = function(config) {
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_INFO,
 
+    startConnect: true,
+
     sauceLabs: {
-      testName: 'Karma and Sauce Labs demo'
+      testName: 'Karma and Sauce Labs demo',
+      connectOptions: {
+        // replace with correct proxy
+        proxy: 'localhost:50938'
+      },
+      // replace with correct proxy
+      proxy: 'http://localhost:50938'
     },
     captureTimeout: 120000,
     customLaunchers: customLaunchers,
