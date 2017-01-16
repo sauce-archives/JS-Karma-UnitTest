@@ -9,8 +9,9 @@
   "author": "Sauce Labs",
   "license": "Apache V2",
   "devDependencies": {
-    "karma": "^0.12.0",
-    "karma-sauce-launcher": "^0.2.3",
-    "karma-jasmine": "^0.2.2"
+    "jasmine-core": "^2.5.2",
+    "karma": "~1.4.0",
+    "karma-jasmine": "~1.1.0",
+    "karma-sauce-launcher": "~1.1.0"
   }
 }
