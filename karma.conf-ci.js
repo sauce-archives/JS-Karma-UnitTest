@@ -1,5 +1,3 @@
-var fs = require('fs');
-
 module.exports = function(config) {
 
   // Browsers to run on Sauce Labs
@@ -7,20 +5,26 @@ module.exports = function(config) {
     'SL_Chrome': {
       base: 'SauceLabs',
       browserName: 'chrome',
-      version: 40,
-      platform: 'XP'
+      version: '48.0',
+      platform: 'Linux'
+    },
+    'SL_Firefox': {
+      base: 'SauceLabs',
+      browserName: 'firefox',
+      version: '50.0',
+      platform: 'Windows 10'
     },
     'SL_InternetExplorer': {
       base: 'SauceLabs',
       browserName: 'internet explorer',
-      version: '10',
+      version: '11.0',
       platform: 'Windows 7'
     },
-    'SL_FireFox': {
+    'SL_Safari': {
       base: 'SauceLabs',
-      browserName: 'firefox',
-      platform: 'Linux',
-      version: 31
+      browserName: 'safari',
+      platform: 'OS X 10.11',
+      version: '10.0'
     }
   };
 

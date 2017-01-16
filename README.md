@@ -45,7 +45,7 @@ This code is provided on an "AS-IS” basis without warranty of any kind, either
 
 ##### [Karma Documentation](https://karma-runner.github.io/0.13/config/configuration-file.html)
 
-##### [Karma Sauce Launcer Documentation](https://github.com/karma-runner/karma-sauce-launcher)
+##### [Karma Sauce Launcher Documentation](https://github.com/karma-runner/karma-sauce-launcher)
 
 ##### [Node Documentation](https://nodejs.org/en/docs/)
 
