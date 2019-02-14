@@ -5,13 +5,13 @@ module.exports = function(config) {
     'SL_Chrome': {
       base: 'SauceLabs',
       browserName: 'chrome',
-      version: '48.0',
-      platform: 'Linux'
+      version: '68.0',
+      platform: 'OS X 10.12'
     },
     'SL_Firefox': {
       base: 'SauceLabs',
       browserName: 'firefox',
-      version: '50.0',
+      version: '64.0',
       platform: 'Windows 10'
     },
     'SL_InternetExplorer': {
@@ -23,8 +23,8 @@ module.exports = function(config) {
     'SL_Safari': {
       base: 'SauceLabs',
       browserName: 'safari',
-      platform: 'OS X 10.11',
-      version: '10.0'
+      platform: 'OS X 10.12',
+      version: '11.0'
     }
   };
 
